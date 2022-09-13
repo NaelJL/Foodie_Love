@@ -10,6 +10,12 @@ h1 {
     font-family: 'Ms Madi', cursive;
     text-align: center;
     font-size: 6rem;
+    text-shadow: 8px 8px rgb(209, 208, 208);
+}
+
+h3 {
+    font-family: 'Ms Madi', cursive;
+    font-size: 2rem;
 }
 
 nav {
@@ -17,4 +23,25 @@ nav {
     box-shadow: 1px 1px gray;
     display: flex;
     justify-content: space-around;
+    margin: 40px auto auto auto;
+    width: 80%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article {
+    border: 1px solid gray;
+    box-shadow: 0px 3px 15px  silver;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer {
+    position: fixed;
+    bottom: 20px;
+    left: 45%;
 }
