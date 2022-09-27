@@ -31,17 +31,28 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-top: 60px;
 }
 
 article {
     border: 1px solid gray;
     box-shadow: 0px 3px 15px  silver;
-    padding: 20px;
-    margin-top: 40px;
+    padding: 20px 20px 60px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.lien {
+    text-shadow: 1px 1px silver;
+}
+
+.lien:hover {
+    color: gray;
 }
 
 footer {
-    position: fixed;
-    bottom: 20px;
-    left: 45%;
+    margin-top: 50px;
 }

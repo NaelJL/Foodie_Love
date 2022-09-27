@@ -5,7 +5,8 @@ let temps = document.getElementById('temps');
 let ingredients = document.getElementById('ingredients');
 let instructions = document.getElementById('instructions');
 
-// CONSTRUCTOR
+
+/* CONSTRUCTOR
 
 class FicheRecette {
     constructor(name) {
@@ -31,5 +32,4 @@ class FicheRecette {
         return this._instructions;
     }
 }
-
-// INSTANCES
+*/
